@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Experience — Suraj Poddar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><div class="logo">SP</div><div class="brand-text"><h1>Suraj Poddar</h1><p class="muted">Software Engineer</p></div></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="experience.html" class="nav-link active">Experience</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="achievements.html" class="nav-link">Achievements</a>
+        <a href="contact.html" class="nav-link cta">Contact</a>
+      </nav>
+      <div class="controls">
+        <div class="toggle-wrap"><input id="theme-switch" class="theme-switch" type="checkbox"/><label for="theme-switch" class="theme-toggle"><span class="sun">☀️</span><span class="knob"></span><span class="moon">🌙</span></label></div>
+        <button class="hamburger" id="burger">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="time">Jul 2024 — Present</div>
+          <div class="content">
+            <h3>Software Engineer Specialist — GE HealthCare</h3>
+            <p class="muted">Enterprise Archive Team, Bengaluru</p>
+            <ul>
+              <li>Developed True PACS functionality integrating Vendor Neutral Archive (VNA) using C# (.NET) and SQL Server for high-volume long-term storage.</li>
+              <li>Built Health Check REST API with real-time monitoring; integrated with AWS CloudWatch for alerting and uptime SLAs.</li>
+              <li>Implemented secure credential handling for AWS/Azure/proxy to prevent leaks from dev tools/config files.</li>
+              <li>Integrated SpeedSpan archive into Angular console and created APIs to fetch dynamic DICOM study tags.</li>
+            </ul>
+            <p class="muted small">Tech: C#, .NET, Angular, SQL Server, TypeScript, AWS, CI/CD</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="time">Oct 2023 — Jun 2024</div>
+          <div class="content">
+            <h3>Software Engineer Intern — GE HealthCare</h3>
+            <p class="muted">Bengaluru</p>
+            <ul>
+              <li>Built Angular org/admin onboarding portal; reduced onboarding time by 30% and search latency by 25%.</li>
+              <li>Developed RADS Audit UI and reduced UI load time by 40% and API usage by 50%.</li>
+              <li>Wrote Python BDD tests (Behave), achieving high coverage; automated flows using Selenium & Robot Framework.</li>
+              <li>Collaborated with QA leveraging LLMs to generate test case suggestions and improve coverage.</li>
+            </ul>
+            <p class="muted small">Tech: Angular, Python, Selenium, Robot Framework, OpenSearch</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

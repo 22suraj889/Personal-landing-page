@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Suraj Poddar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><div class="logo">SP</div><div class="brand-text"><h1>Suraj Poddar</h1><p class="muted">Software Engineer</p></div></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="achievements.html" class="nav-link">Achievements</a>
+        <a href="contact.html" class="nav-link cta">Contact</a>
+      </nav>
+      <div class="controls">
+        <div class="toggle-wrap"><input id="theme-switch" class="theme-switch" type="checkbox"/><label for="theme-switch" class="theme-toggle"><span class="sun">☀️</span><span class="knob"></span><span class="moon">🌙</span></label></div>
+        <button class="hamburger" id="burger">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Highlighted Projects</h2>
+
+      <div class="project-grid">
+        <article class="project">
+          <div class="proj-head">
+            <h3>Memories Web App</h3>
+            <div class="muted small">React • Node • Express • MongoDB</div>
+          </div>
+          <p>Full-stack social platform to post and like photos. Used Material UI and Redux to provide a responsive UX; improved engagement metrics and reduced load time.</p>
+          <div class="proj-links">
+            <a class="btn ghost" href="https://memories-6vhw.onrender.com/" target="_blank" rel="noopener">Live</a>
+            <a class="btn" href="https://github.com/22suraj889/Memories-mern" target="_blank" rel="noopener">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="proj-head">
+            <h3>Care for You</h3>
+            <div class="muted small">React • Node • MongoDB</div>
+          </div>
+          <p>User-friendly web app displaying hospital ward details and ward stats. Implemented JWT auth and improved engagement with interactive UI components.</p>
+          <div class="proj-links">
+            <a class="btn" href="https://github.com/22suraj889/care-for-you-mern" target="_blank" rel="noopener">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="proj-head">
+            <h3>Other Work & Demos</h3>
+            <div class="muted small">Node • Python • Automation</div>
+          </div>
+          <p>Various automation scripts, testing frameworks and small utilities available on my GitHub. Focused on automated testing, CI/CD and observability.</p>
+          <div class="proj-links">
+            <a class="btn ghost" href="https://github.com/22suraj889" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

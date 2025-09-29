@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Suraj Poddar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><div class="logo">SP</div><div class="brand-text"><h1>Suraj Poddar</h1><p class="muted">Software Engineer</p></div></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="achievements.html" class="nav-link">Achievements</a>
+        <a href="contact.html" class="nav-link cta active">Contact</a>
+      </nav>
+      <div class="controls">
+        <div class="toggle-wrap"><input id="theme-switch" class="theme-switch" type="checkbox"/><label for="theme-switch" class="theme-toggle"><span class="sun">☀️</span><span class="knob"></span><span class="moon">🌙</span></label></div>
+        <button class="hamburger" id="burger">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card contact-card">
+      <h2>Contact</h2>
+      <p class="muted">Want to collaborate? Send a quick message or reach out on LinkedIn / GitHub.</p>
+
+      <form id="contact-form" onsubmit="return fakeSubmit(event)" class="contact-form">
+        <label class="label-small">Name
+          <input id="name" type="text" required placeholder="Your name">
+        </label>
+        <label class="label-small">Email
+          <input id="email" type="email" required placeholder="you@example.com">
+        </label>
+        <label class="label-small">Message
+          <textarea id="message" required placeholder="Tell me about the project..."></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button class="btn primary" type="submit">Send Email</button>
+          <a class="btn ghost" href="mailto:surajku2022@gmail.com">Email Direct</a>
+        </div>
+      </form>
+
+      <div class="contact-side card">
+        <h4>Contact Info</h4>
+        <p><strong>Email:</strong> <a href="mailto:surajku2022@gmail.com">surajku2022@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+917259903118">+91-7259903118</a></p>
+        <p><strong>Location:</strong> Bengaluru, India</p>
+        <div style="margin-top:12px;">
+          <a class="link-pill" href="https://linkedin.com/in/suraj-poddar-9039271ba" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="link-pill" href="https://github.com/22suraj889" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
